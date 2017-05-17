@@ -1,0 +1,17 @@
+{block #content}
+
+<h1>Zaměstnanci</h1>
+<hr>
+<ul class="nav nav-pills">
+    <li role="presentation" class="active"><a href="#">Zaměstnanci</a></li>
+    <li role="presentation"><a href="{plink Pid:default}">Rodná čísla</a></li>
+    <li role="presentation"><a href="{plink Company:default}">Firmy</a></li>
+    <li role="presentation"><a href="{plink Statistic:default}">Statistiky</a></li>
+    <li role="presentation"><a href="{plink Homepage:default}">Menu</a></li>
+</ul>
+
+<div style="text-align: right">
+    <a class="btn btn-success" href="{plink add}">Vytvoř</a>
+</div>
+
+{control employerGrid}
